@@ -1,14 +1,23 @@
 import "./assets/styles/App.css";
 
+import {
+  Header,
+  Footer,
+  ControlPanel,
+  GamePanel
+} from "./components/";
+
 function App() {
   return (
     <div id="container">
-      <h2>Jogo de Memória em React</h2>
-      <h3>Linguagens Script</h3>
+      <Header></Header>
+      <ControlPanel></ControlPanel>
+      <GamePanel></GamePanel>
+      <Footer></Footer>
     </div>
   );
 }
-
+  
 export default App;
 // Esta linha também poderia ser eliminada
 // e adefinição da funsão ser substituida 
